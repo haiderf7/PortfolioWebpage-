@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home Page</title>
+    <meta name="description" content="Haider`s Portfolio Page" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/9ee3873b5b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/contact.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html" class="header-logo">HAIDER'S PORTFOLIO</a>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="index.html" class="nav-styling">My Projects</a></li>
+        <li><a href="contact.html" class="nav-styling">Contact</a></li>
+        <li><a href="aboutus.html" class="nav-styling">About</a></li>
+      </ul>
+    </nav>
+    <main class="form-container">
+      <h1 class="h1-contact-us">Contact us</h1>
+      <form id="contactForm">
+        <div>
+          <label>
+            Name (required)
+            <input name="Name" id="Name" />
+          </label>
+          <div class="error" id="NameError">Please enter your first name</div>
+        </div>
+
+        <div>
+          <label>
+            Email
+            <input name="email" id="email" />
+          </label>
+          <div class="error" id="emailError">
+            Please enter a valid email address
+          </div>
+        </div>
+
+        <div>
+          <label>
+            Message (minimum 20 characters)
+            <input name="message" id="message" class="message" />
+          </label>
+          <div class="error" id="messageError">
+            Your Subject must be at least 20 characters
+          </div>
+        </div>
+        <button>Submit</button>
+      </form>
+    </main>
+    <footer>
+      <div class="footer-text">
+        Haider`s Portfolio 2022 | All rights reserved.
+      </div>
+      <div class="footer-text">Terms of Service | Privacy Policy</div>
+    </footer>
+  </body>
+</html>
