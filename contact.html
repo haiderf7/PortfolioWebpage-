@@ -24,7 +24,7 @@
     </nav>
     <main class="form-container">
       <h1 class="h1-contact-us">Contact us</h1>
-      <form id="contactForm">
+      <form id="contactForm" class="contactform">
         <div>
           <label>
             Name (required)
@@ -49,12 +49,13 @@
             <input name="message" id="message" class="message" />
           </label>
           <div class="error" id="messageError">
-            Your Subject must be at least 20 characters
+            Your message must at least contain 20 characters
           </div>
         </div>
-        <button>Submit</button>
+        <div class="button-style"><button>Submit</button></div>
       </form>
     </main>
+    <script src="js/contact.js"></script>
     <footer>
       <div class="footer-text">
         Haider`s Portfolio 2022 | All rights reserved.
