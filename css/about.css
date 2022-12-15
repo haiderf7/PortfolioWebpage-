@@ -1,0 +1,36 @@
+.about-main{
+    padding: 20px;
+}
+
+
+.about-image{
+    width: 100%;
+    max-width: 850px;
+}
+
+
+.about-img-styling{
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-section{
+    background-color: #00FFFF;
+    padding: 35px;
+    margin: 20px;
+}
+
+.about-h2{
+   display: flex;
+   justify-content: center;
+}
+
+
+.aboutParagraph{
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1rem;
+}
+
+

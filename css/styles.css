@@ -84,7 +84,7 @@ body {
     margin: 50px;
 }
 
-.card-one{
+.cards{
     text-align: center;
     background-color: #00FFFF;
     padding: 25px;
@@ -141,4 +141,21 @@ footer{
 .welcome-image{
     width: 100%;
     max-width: 950px;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+  .cards{
+    margin: 0px;
+  }
+   
+}
+
+
+@media only screen and (max-width: 500px) {
+  .welcome-image{
+    max-width: 370px;
+  }
+   
 }
